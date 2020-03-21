@@ -22,6 +22,7 @@ class Artist
    end  
    if find_or_create_name == nil
      self.new(name)
+     @@all << artist
    else
     find_or_create_name
    end
