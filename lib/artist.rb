@@ -21,7 +21,7 @@ class Artist
    find_or_create_name = @@all.find do |artist| artist.name == name 
    end  
    if find_or_create_name == nil
-     self.new(name)
+     artist self.new(name)
      @@all << artist
    else
     find_or_create_name
