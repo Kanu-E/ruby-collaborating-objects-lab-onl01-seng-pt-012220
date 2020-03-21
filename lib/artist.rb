@@ -22,7 +22,6 @@ class Artist
    end  
    if artist == nil
      artist self.new(name)
-     @@all << artist
    else
    artist
    end
